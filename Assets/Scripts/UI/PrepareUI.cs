@@ -12,6 +12,7 @@ public class PrepareUI : MonoBehaviour
     private void Start() {
         animator = GetComponent<Animator>();
         animator.enabled = false;
+        //test
 
     }
     public void Show(Action action)
